@@ -189,10 +189,10 @@ Todos los elementos interactivos (cards de pilares, paths de navegación y cards
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/CarolinaAriza-mind/PabloMGonzalez.git
+git clone https://github.com/CarolinaAriza-mind/landingEmpresarial.git
 
 # 2. Ingresar al directorio del proyecto
-cd PabloMGonzalez/pablo-gonzalez
+cd landingEmpresarial/landing-empresarial
 
 # 3. Instalar dependencias
 npm install
@@ -216,15 +216,9 @@ npm run dev
 
 ## 10. Deploy y Configuración de Producción
 
-### 10.1 Plataforma
+### 10.1 Configuración en Vercel
 
-El sitio se despliega automáticamente en **Vercel** con cada push a la rama `main`. No se requiere intervención manual.
-
-**URL de producción:** https://pablo-m-gonzalez-carolinaarizat93-3964s-projects.vercel.app
-
-### 10.2 Configuración en Vercel
-
-- **Root Directory:** `pablo-gonzalez`
+- **Root Directory:** `landing-empresarial`
 - **Framework Preset:** Next.js (detectado automáticamente)
 - **Build Command:** `npm run build` (por defecto)
 - **Output Directory:** `.next` (por defecto)
@@ -240,13 +234,6 @@ Si en el futuro se implementa un formulario con envío de emails mediante Resend
 ```
 RESEND_API_KEY=re_xxxxxxxxxxxx
 ```
-
----
-
-## 12. Contacto del Proyecto
-
-Cliente / Propietario | Pablo M González
-
 ---
 
 **Desarrollo | Carolina Ariza | GitHub: CarolinaAriza-mind**
