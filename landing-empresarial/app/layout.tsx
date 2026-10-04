@@ -3,6 +3,7 @@ import { Manrope } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import WhatsAppButton from "@/components/sections/WhatsappBotton";
 import Popup from "@/components/Popup";
+import "./globals.css";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -19,17 +20,9 @@ export const metadata: Metadata = {
     title: "Liderazgo Personal | Consultoría de Liderazgo Ético",
     description:
       "Estrategias de alto impacto para líderes que buscan transformación auténtica.",
-    url: "https://pablomgonzalez.com",
     siteName: "Liderazgo Personal | Consultoría de Liderazgo Ético",
     locale: "es_AR",
     type: "website",
-    images: [
-      {
-        url: "https://pablomgonzalez.com/LOGOTIPO1.png",
-        width: 1200,
-        height: 630,
-      },
-    ],
   },
 };
 
