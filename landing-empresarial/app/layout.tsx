@@ -19,9 +19,11 @@ export const metadata: Metadata = {
     title: "Liderazgo Personal | Consultoría de Liderazgo Ético",
     description:
       "Estrategias de alto impacto para líderes que buscan transformación auténtica.",
+    url: "https://pablomgonzalez.com",
     siteName: "Liderazgo Personal | Consultoría de Liderazgo Ético",
     locale: "es_AR",
     type: "website",
+    images: [],
   },
 };
 
