@@ -23,7 +23,13 @@ export const metadata: Metadata = {
     siteName: "Liderazgo Personal | Consultoría de Liderazgo Ético",
     locale: "es_AR",
     type: "website",
-    images: [],
+    images: [
+      {
+        url: "https://pablomgonzalez.com/LOGOTIPO1.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
   },
 };
 
