@@ -1,8 +1,5 @@
 # DOCUMENTACIÓN TÉCNICA
-## Pablo M González — Sitio Web Oficial
-
-**URL de producción:** [https://pablo-m-gonzalez-carolinaarizat93-3964s-projects.vercel.app](https://pablo-m-gonzalez-carolinaarizat93-3964s-projects.vercel.app)
-
+## Landing Empresarial — Sitio Web Oficial
 ---
 
 ## 1. Descripción General
