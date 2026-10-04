@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import { Toaster } from "react-hot-toast";
-import "./globals.css";
 import WhatsAppButton from "@/components/sections/WhatsappBotton";
 import Popup from "@/components/Popup";
 
@@ -13,24 +12,16 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Pablo González | Consultoría de Liderazgo Ético",
+  title: "Liderazgo Personal | Consultoría de Liderazgo Ético",
   description:
     "Consultor de liderazgo ético para personas y organizaciones. Estrategias de alto impacto para quienes lideran el futuro.",
   openGraph: {
-    title: "Pablo González | Consultoría de Liderazgo Ético",
+    title: "Liderazgo Personal | Consultoría de Liderazgo Ético",
     description:
       "Estrategias de alto impacto para líderes que buscan transformación auténtica.",
-    url: "https://pablomgonzalez.com",
-    siteName: "Pablo González",
+    siteName: "Liderazgo Personal | Consultoría de Liderazgo Ético",
     locale: "es_AR",
     type: "website",
-    images: [
-      {
-        url: "https://pablomgonzalez.com/LOGOTIPO1.png",
-        width: 1200,
-        height: 630,
-      },
-    ],
   },
 };
 
