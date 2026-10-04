@@ -1,9 +1,20 @@
+import { NextResponse } from "next/dist/server/web/spec-extension/response";
 import { Resend } from "resend";
-
-const resend = new Resend(process.env.RESEND_API_KEY || "");
 
 export async function POST(req: Request) {
   try {
+    const apiKey = process.env.RESEND_API_KEY;
+
+    if (!apiKey) {
+      console.error("RESEND_API_KEY no está configurada");
+
+      return NextResponse.json(
+        { error: "El servicio de correo no está configurado." },
+        { status: 500 },
+      );
+    }
+    const resend = new Resend(process.env.RESEND_API_KEY || "");
+
     const body = await req.json();
 
     const { type, name, email, message, extra } = body;
@@ -78,10 +89,13 @@ export async function POST(req: Request) {
 `,
     });
 
-    return Response.json({ success: true });
+    return NextResponse.json({ success: true });
   } catch (error) {
     console.error(error);
 
-    return Response.json({ error: "Error enviando email" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Error enviando email" },
+      { status: 500 },
+    );
   }
 }
